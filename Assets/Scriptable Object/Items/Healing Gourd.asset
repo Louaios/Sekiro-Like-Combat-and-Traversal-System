@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6c0c88b5a46274f88a5f4b26c4b82f, type: 3}
+  m_Name: Healing Gourd
+  m_EditorClassIdentifier: 
+  Name: Healing Gourd
+  type: 0
+  image: {fileID: 7077443802785814065, guid: dca419b5639491840bdbf2ab34f13161, type: 3}
+  Description: The Healing Gourd is a Quick Item that is used to restore a certain
+    amount of  health
+  restoreHealth: 300
+  invImage: {fileID: 0}
