@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
 
     [SerializeField] private int postureDecreaseRate = 15;
 
-    public int posture = 0;
+    public float posture = 0;
 
     [SerializeField] private AudioSource blockingAudio;
     [SerializeField] private AudioSource deflectingAudio;
@@ -46,7 +46,9 @@ public class Health : MonoBehaviour
     }
     private void Update()
     {
-        PostureDecrease(postureDecreaseRate * Time.deltaTime);
+        if(posture > 0)
+          PostureDecrease(postureDecreaseRate * Time.deltaTime);
+
         if (posture >= _maxPosture)
         {
             OnBreakEvent?.Invoke();
@@ -103,9 +105,11 @@ public class Health : MonoBehaviour
 
     private void PostureDecrease(float rate)
     {
-        posture -= (int)rate;
+        posture -= rate;
         postureSlider.value = posture;
         mirrorPostureSlider.value= posture;
+
+        if (posture < 0) posture = 0;
     }
 
     public void SetParryTrue()

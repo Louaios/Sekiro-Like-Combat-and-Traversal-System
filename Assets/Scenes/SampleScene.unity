@@ -3887,7 +3887,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.639
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3927,7 +3927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723862590}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0925414, y: 0.00000001713254, z: -0.0000000015923016, w: 0.9957089}
+  m_LocalRotation: {x: 0.092541374, y: -0.000000017132555, z: 0.0000000015923027, w: 0.9957089}
   m_LocalPosition: {x: 2.8210647, y: 1.9227502, z: -15.08687}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4387,7 +4387,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.639
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4920,6 +4920,10 @@ PrefabInstance:
       propertyPath: mirrorPostureSlider
       value: 
       objectReference: {fileID: 1843427872}
+    - target: {fileID: 7095758198222976363, guid: f78b132d6dc6a844cb877b4cc0c4cae9, type: 3}
+      propertyPath: postureDecreaseRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7692374849149816371, guid: f78b132d6dc6a844cb877b4cc0c4cae9, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -4986,6 +4990,10 @@ PrefabInstance:
       propertyPath: mirrorPostureSlider
       value: 
       objectReference: {fileID: 844514213}
+    - target: {fileID: 923034522043025221, guid: 035335bedaa5a684b8820816a8887886, type: 3}
+      propertyPath: postureDecreaseRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3131048308959603901, guid: 035335bedaa5a684b8820816a8887886, type: 3}
       propertyPath: m_Name
       value: Player
