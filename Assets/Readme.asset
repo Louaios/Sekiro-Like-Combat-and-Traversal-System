@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: b766446d27ef54743a6ad6d7d4ef27f8, type: 3}
+  iconMaxWidth: 192
+  title: Sekiro-Like Combat
+  sections:
+  - heading: Description
+    text: 'This is a fun project for practice, inspired by FromSoftware''s GOTY video
+      game Sekiro: Shadows die Twice'
+    linkText: 
+    url: 
+  - heading: Credits
+    text: Louai Boudrahem
+    linkText: 
+    url: github.com/Louaios
+  - heading: Special Thanks
+    text: Special thanks to Samurai Katana asset
+    linkText: 
+    url: 
+  loadedLayout: 1
