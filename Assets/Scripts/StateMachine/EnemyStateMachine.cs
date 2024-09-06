@@ -29,6 +29,8 @@ public class EnemyStateMachine : StateMachine
         Agent.updatePosition = false; // so that the agent doesnt move to player on its own
         Agent.updateRotation = false;
 
+        health.SetUI(false);
+
         SwitchState(new EnemyIdleState(this));
     }
 
