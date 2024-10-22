@@ -30,7 +30,7 @@ public class EnemyAttackingState : EnemyBaseState
 
     public override void Exit()
     {
-
+        stateMachine.canAttack = false;
     }
 
     private bool isInAttackRange()

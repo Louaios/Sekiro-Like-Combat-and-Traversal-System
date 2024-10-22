@@ -22,6 +22,8 @@ public class EnemyStateMachine : StateMachine
     [field: SerializeField] public float KnockBack { get; private set; }
     [field: SerializeField] public float BrokenDuration { get; private set; }
 
+    public bool canAttack = false;
+
     private void Start()
     {
         Player = GameObject.FindWithTag("Player").GetComponent<Health>();
